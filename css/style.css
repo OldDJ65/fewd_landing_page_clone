@@ -49,10 +49,6 @@ a:visited {
 	color: #D1A000;
 }
 
-.bold {
-	font-weight: 600;
-}
-
 
 body {
 /*	background-color: #dddddd; */
@@ -81,9 +77,10 @@ body {
     width: 60rem;
 }
 }
-@media (min-width: 48rem)
+@media (min-width: 48rem) {
 .content {
     width: 46rem;
+}
 }
 
 .content {
@@ -91,17 +88,12 @@ body {
 }
 
 
-.top-navigation > .logo {
-    height: 4.375rem;
-}
-
 .top-navigation .links {
     float: right;
 	font-family: 'Roboto', sans-serif;
     color: #838994;
     margin-top: 25px;
 	font-size: 16px;
-	color: #838994;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -133,11 +125,9 @@ body {
 }
 
 .introduction {
-    background-image: url("../images/first-background.jpg");
-    background-repeat: no-repeat;
     height: 45.938rem;
     background-size: cover;
-    background-position: center bottom;
+    background: url("../images/first-background.jpg") no-repeat center bottom;
     overflow: auto;
 }
 
@@ -160,7 +150,7 @@ body {
         background: -moz-linear-gradient(top, #3e779d, #65a9d7);
         background: -ms-linear-gradient(top, #3e779d, #65a9d7);
         background: -o-linear-gradient(top, #3e779d, #65a9d7);
-        padding: 13.5px 27px;
+        padding: 13px 27px;
         -webkit-border-radius: 7px;
         -moz-border-radius: 7px;
         border-radius: 7px;
