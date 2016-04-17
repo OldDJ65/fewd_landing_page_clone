@@ -66,6 +66,7 @@ body {
     height: 4.375rem;
 }
 
+/*
 @media (min-width: 75rem) {
 .content {
     width: 60%;
@@ -82,9 +83,12 @@ body {
     width: 46rem;
 }
 }
-
+*/
 .content {
 	padding: 0 0.938rem;
+    box-sizing: border-box;
+    width: 970px;
+    margin: 0 auto;
 }
 
 
@@ -131,15 +135,28 @@ body {
     overflow: auto;
 }
 
+/*
 .introduction > .content {
     text-align: center;
     color: #ffffff;
     font-weight: 300;
     margin-top: 100px;
 }
+*/
+.introduction h1 {
+    font-size: 50px;
+    margin-top: 260px;
+}
 
-.introduction > .content h3 {
-    margin-bottom: 1em;
+.introduction h1, .introduction h3 {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.introduction h3 {
+    margin-top: 20px;
+    font-size: 25px;
 }
 
     .button {
