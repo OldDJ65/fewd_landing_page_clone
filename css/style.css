@@ -63,8 +63,10 @@ nav, section {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
-/*    position: fixed; */
+   position: fixed;
     width:100%;
+    border-bottom: 1px solid #000000;
+    z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -186,8 +188,31 @@ button:hover {
     cursor: pointer;
 }
 
+.cases .content {
+    margin-top: 125px;
+    text-align: center;
+}
 
+.cases h2 {
+    font-size: 44px;
+    font-weight: 300;
+    margin: 26px 0 50px;
+}
 
+.cases .devices h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 40px 0 30px;
+}
+
+.devices li {
+    display: inline-block;
+}
+
+.cases .devices > li {
+    width: 33.3333%;
+    float: left;
+}
  /*
     .button {
         border-top: 1px solid #96d1f8;
