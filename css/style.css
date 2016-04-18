@@ -264,3 +264,7 @@ button:hover {
     color: #3f729b;
 }
 
+.social .twitter:hover, .social .facebook:hover, .social .instagram:hover {
+    cursor: pointer;
+}
+
